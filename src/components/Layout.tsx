@@ -4,6 +4,7 @@ import { COMPANY, CURRENT_USER } from '../data/mock';
 import type { Route } from '../router';
 import { useFleet } from '../state/FleetContext';
 import { cx } from '../utils';
+import siplecLogo from '../assets/siplec-logo.png';
 
 const NAV: { key: Route['page']; label: string; href: string; icon: typeof LayoutDashboard }[] = [
   { key: 'overview', label: 'Vue d’ensemble', href: '#/', icon: LayoutDashboard },
@@ -109,6 +110,8 @@ export function Layout({ route, children }: { route: Route; children: ReactNode 
             <button type="button" className="rounded-lg p-2 text-navy hover:bg-slate-100 lg:hidden" onClick={() => setMobileOpen(true)} aria-label="Ouvrir le menu">
               <Menu size={20} />
             </button>
+            <img src={siplecLogo} alt="SIPLEC E.Leclerc" className="h-10 w-auto shrink-0 md:h-12" width={101} height={48} />
+            <span className="hidden h-8 w-px bg-slate-200 sm:block" aria-hidden />
             <div className="hidden items-center gap-2 rounded-full bg-accent-50 px-3 py-1 text-xs font-semibold text-accent-700 sm:flex">
               <FlaskConical size={14} aria-hidden />
               Prototype conceptuel – Candidature Caroline Camilleri
