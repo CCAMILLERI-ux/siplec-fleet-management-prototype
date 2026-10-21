@@ -67,7 +67,7 @@ Les autres actions sont également fonctionnelles : *Contacter le conducteur* (S
 
 L’horloge de démonstration est fixée au **21 octobre 2026** (avec l’heure réelle du jour) afin que les horodatages restent cohérents avec la période affichée.
 
-Le logo officiel E.Leclerc n’est pas utilisé ; l’interface s’inspire librement de l’identité visuelle publique de SIPLEC E.Leclerc sans prétendre reproduire une charte interne.
+Le logo SIPLEC E.Leclerc affiché dans l’en-tête reste la propriété de SIPLEC ; il est utilisé uniquement pour situer ce prototype de candidature. L’interface s’inspire librement de l’identité visuelle publique de SIPLEC E.Leclerc sans prétendre reproduire une charte interne.
 
 ## Installation et lancement
 
