@@ -3,6 +3,8 @@
 > **Prototype conceptuel – Candidature Caroline Camilleri**
 > Ce prototype illustre une **hypothèse produit** autour de l’écosystème digital de la Carte Carburant Pro E.Leclerc. Il ne décrit pas une solution décidée ou en cours de développement par SIPLEC : il matérialise le résultat possible d’une démarche de discovery (écoute des gestionnaires de flotte, analyse des usages, identification d’opportunités business).
 
+**Démo en ligne : https://ccamilleri-ux.github.io/siplec-fleet-management-prototype/**
+
 ## Le concept
 
 Un espace de gestion de flotte « intelligent », centré sur la **détection d’anomalies de consommation** liées aux cartes carburant. L’outil ne se contente pas d’afficher des données : il signale ce qui mérite l’attention, explique pourquoi, et permet d’agir immédiatement depuis le même écran.
@@ -82,9 +84,15 @@ Autres commandes :
 
 ```bash
 npm run build      # vérification TypeScript + build de production dans dist/
-npm run preview    # sert le build de production localement
+npm run preview    # sert le build de production localement, sous le même chemin que GitHub Pages
 npm run typecheck  # vérification TypeScript seule
 ```
+
+## Mise en ligne (GitHub Pages)
+
+Le workflow `.github/workflows/deploy.yml` construit et publie automatiquement le prototype à chaque mise à jour de la branche `main`. Il peut aussi être relancé à la main depuis l’onglet **Actions**.
+
+Réglage à faire une seule fois dans le dépôt : **Settings → Pages → Build and deployment → Source : « GitHub Actions »**.
 
 ## Stack technique
 
